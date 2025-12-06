@@ -41,6 +41,7 @@ privileged:
   - SYS_NICE
 devices:
   - /dev/mem
+  - /dev/fuse
 map:
   - addons:rw
   - all_addon_configs:rw
@@ -49,6 +50,7 @@ map:
   - media:rw
   - share:rw
   - ssl:rw
+  - data:rw
 backup_exclude:
   - "*/.vscode-server/**"
 journald: true

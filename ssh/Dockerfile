@@ -73,6 +73,7 @@ RUN \
         zsh-autosuggestions=0.7.1-r0 \
         zsh-syntax-highlighting=0.8.0-r1 \
         zsh=5.9-r5 \
+        sshfs=3.7.3-r0 \
     \
     && git clone --depth 1 \
         https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh \
