@@ -33,15 +33,7 @@ audio: true
 apparmor: false
 host_dbus: true
 docker_api: true
-privileged:
-  - NET_ADMIN
-  - SYS_ADMIN
-  - SYS_RAWIO
-  - SYS_TIME
-  - SYS_NICE
-devices:
-  - /dev/mem
-  - /dev/fuse
+full_access: true
 map:
   - addons:rw
   - all_addon_configs:rw

@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Influxdb V2 Repository
-url: 'https://github.com/ssuesens/addon-ssh-basti.git'
-maintainer: Sebastian Suesens S.Suesens@gmx.de
+name: SSHFS Repository from ssh
+url: 'https://github.com/ssuesens/ssh-addon-basti'
+maintainer: Sebastian Suesens <s.suesens@gmx.de>
